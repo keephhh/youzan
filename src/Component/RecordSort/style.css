@@ -1,0 +1,116 @@
+/*
+   RecordSort
+*/
+.display_table {
+    min-width: 600px;
+}
+table {
+
+    margin: 10px 20px;
+    box-sizing: border-box;
+}
+thead {
+    display: block;
+    text-align: left;
+}
+tbody {
+    display: block;
+    overflow: auto;
+    width: 100%;
+}
+table tr {
+    border-left: 1px solid #EB8;
+    border-bottom: 1px solid #B74;
+    text-align: center;
+    line-height: 40px;
+}
+
+table td, table th {
+    width: 200px;
+    border-bottom: none;
+    border-left: none;
+    border-top: 1px solid #DDD;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+.left {
+    text-align: left;
+    border-left: 1px solid #DDD;
+}
+
+/*
+    weme-logo
+*/
+.weme-logo {
+    width: 100%;
+    height: 40px;
+}
+.weme-logo>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 40%;
+    opacity: .6;
+}
+.weme-logo>a>img {
+    width: 33px;
+    height: 33px;
+    margin-right: 15px;
+}
+.weme-logo span {
+    display: inline-block;
+
+}
+
+/*
+    fiex-nav   css
+*/
+
+.fiex-nav {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+}
+.message_img {
+    background: url("https://www.baidu.com/link?url=IVpnUxi847edDvRy63D6hK4EjXErpIUvkAFUY-qf44I3DEqLcsKeHondEchkXt-WdA5n4ffEbKA9lSTTQ9r1GQYU-0Ip0-ThqT0btfnR3qkhylNr8cZePhzVltJKyN5qYN5RHNhaHMIa7e-I0g369t3NtpXtAxL2KXEukyktO_xI6n-0ceH6GrbXm1Dni76wxTIlF27sehMFK2nACJiAlPVaQJL8MKy0Q5Z7qmfgI_y-G3sy-wBevpWyllOxK10RqZMZizL45JLMMHTpMuQkQE-aAnIIFbwgWzrGApoU1Yo4UP3EkIcyR5DzSdTR1JyVP1cso9G_Oh0yascYduqWuT__SxLLBpOoLIRj1INAtMEqeIz9gO21UiIh4nCbaJIpFBTxKmOqnAs5xhrhZZl67mXy2938922KqVMk-WmSndf6g7CUXRH3TV0gup4jzSog3evkmrDwf1zURfXFb9-SY9umM1V_ZlVi7-ZE2XB4cc-lcAcfJP8pGFZieHfSPn3t-l7q3bcg0Butn3CLZIBTwJlPk3zdGbm9i3hLGiD6XC0NyOjx9WcCloyWpKc1Y39s-cj8qBLNY42TPsrP8WR-Nqm_YKEtfgZ4b8Bv8k7hmezj983PsXOQWTUeFWdwRleEM-PnNO4e2awFyHp4FRnK9a&timg=https%3A%2F%2Fss0.bdstatic.com%2F94oJfD_bAAcT8t7mm9GUKT-xh_%2Ftimg%3Fimage%26quality%3D100%26size%3Db4000_4000%26sec%3D1509417091%26di%3D26d82d36b57a4c9e0d6fa6ca29e40141%26src%3Dhttp%3A%2F%2Fpic36.photophoto.cn%2F20150710%2F0007020076737957_b.jpg&click_t=1509417096576&s_info=1425_826&wd=&eqid=f51e486c000024a60000000559f7e083");
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    vertical-align: middle;
+}
+.fiex-nav .fiex-nav-mes>a, .fiex-nav .fiex-nav-mag>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    border: 1px solid #808080;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+
+}
+.fiex-nav .fiex-nav-mes>a {
+    color: #808080;
+    background-color: white;
+}
+.fiex-nav .fiex-nav-mag>a {
+    color: #fff;
+    background: #FF6347;
+}
+.fiex-nav-img {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+.fiex-nav-text-active {
+    display: inline-block;
+    padding: 5px 8px;
+    background-color: #FFF;
+    color: #FF6347;
+    line-height: 10px;
+    border-radius: 8px;
+    margin-left: 5px;
+}

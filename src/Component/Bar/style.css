@@ -1,0 +1,56 @@
+/*
+ bar
+*/
+.echart-header {
+    position: relative;
+    min-width: 300px;
+    height: 25px;
+    line-height: 22px;
+    margin: 0 15px 0 20px;
+    background: #f8f8f8;
+    overflow: visible;
+    padding: 12px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+.echart-header>label {
+    line-height: 20px;
+    border-left: 5px solid red;
+    padding-left: 10px;
+}
+.weme-link {
+    display: inline-block;
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 20px;
+    padding-left: 10px;
+    color: blue;
+}
+.weme-link>li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+}
+.weme-question {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    color: #fff;
+}
+.weme-question>span {
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-size: 12px;
+    background-color: #808080;
+    text-align: center;
+    line-height: 15px;
+}

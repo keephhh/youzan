@@ -1,0 +1,12 @@
+/*
+ Chart
+*/
+.E_chart {
+    min-width: 600px;
+    min-height: 400px;
+}
+.button_chart>button {
+    width: 80px;
+    height: 30px;
+    margin: 10px 0 0 20px;
+}

@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+//font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+  font-weight: 300;
+// font-family: Arial, Helvetica, "STHeiti STXihei", "Microsoft YaHei", Tohoma;
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Segoe UI", "Helvetica Neue", "PingFang SC", "Noto Sans", "Noto Sans CJK SC", "Microsoft YaHei", "微软雅黑", sans-serif;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#app {
+  height: 100%;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 316354 */
+  src: url('//at.alicdn.com/t/font_316354_6x7z1gmaexpnl8fr.eot');
+  src: url('//at.alicdn.com/t/font_316354_6x7z1gmaexpnl8fr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_316354_6x7z1gmaexpnl8fr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_316354_6x7z1gmaexpnl8fr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_316354_6x7z1gmaexpnl8fr.svg#iconfont') format('svg');
+  font-size: 18px;
+}
+.iconfont{
+  font-family: "iconfont";
+  font-size: 2.586667rem;
+  font-style: normal;
+  color: red;
+}
+
